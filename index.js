@@ -1,4 +1,5 @@
-var img = document.getElementById('watch-img')
+document.addEventListener("DOMContentLoaded", function(){
+    var img = document.getElementById('watch-img')
 
 var c1 = document.getElementById('color-1');
 var c2 = document.getElementById('color-2');
@@ -55,4 +56,4 @@ heartbtn.addEventListener('click', () => {
     heartdiv.style.display = "block";
     time.style.display = "none";
 })
-
+}
