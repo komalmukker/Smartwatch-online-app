@@ -1,0 +1,223 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+}
+#navbar{
+    position: relative;
+    background-color: #232f3e ;
+}
+#amazon-logo{
+    height: 70px;
+    position: relative;
+    left: 45%;
+    top: 5px;
+    
+}
+#container{
+    display: flex;
+    margin-top: 50px;
+}
+#watch{
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin-right:80px;
+    margin-left: 200px;
+}
+#watch-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* position: relative; */
+    /* margin-left: 200px; */
+}
+#heartrate{
+    display: none;
+}
+#heart-img{
+    position: absolute;
+    width: 100px;
+    top: 30%;
+    left: 40%;
+}
+#heartrate > p{
+    position: absolute;
+    top: 41%;
+    left: 45%;
+    color: white;
+    font-size: clamp(14px, 2vw, 30px);
+}
+#time{
+    position: absolute;
+    top: 41%;
+    font-size: clamp(14px, 2vw, 30px);
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10px;
+}
+#hour{
+     position: absolute;
+    top: 41%;
+    font-size: clamp(14px, 2vw, 30px);
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10px;
+    display: none;
+}
+#right-box{
+    position: relative;
+    width: 580px;
+    /* margin-left: 200px; */
+}
+#content-1 > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+#content-1 > p{
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+}
+#right-box > p{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#content-3 >p {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+}
+
+#colors{
+    display: flex;
+    gap: 10px;
+
+}
+/* black */
+#color-1{
+    background-color: #23211f;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+}
+/* purple */
+#color-2{
+    background-color: #8a5362;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+
+}
+/* blue */
+#color-3{
+    background-color: #565681;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+}
+/* red */
+#color-4{
+    background-color: #ca3d22;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+}
+/* pink */
+#color-5{
+    background-color: #e9c7be;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+}
+
+#timebtn{
+    padding: 8px;
+    width: 80px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin-right: 20px;
+
+}
+#heartbtn{
+    padding: 8px;
+    width: 120px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+#buy-now{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkorange;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+@media screen and (max-width: 768px){
+
+    #time{
+        font-size: 14px;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    #left-box{
+        justify-content: center;
+        width: 100%;
+    }
+    #watch{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    #watch-img{
+       width: 80%;
+       height: auto;
+       display: block;
+    }
+    #right-box{
+        width: 100%;
+    }
+    #content-1{
+        width: 100%;
+    }
+    #content-1 > h1, p{
+        justify-content: flex-start;
+    }
+    #colors{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
