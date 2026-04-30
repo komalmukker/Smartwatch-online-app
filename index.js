@@ -15,23 +15,23 @@ let heartbtn = document.getElementById('heartbtn');
 
 
 c1.addEventListener('click', function(){
-    img.src = "./images/black.png";
+    img.src = "black.png";
     console.log('watch color black');
 });
 c2.addEventListener('click', function(){
-    img.src = "./images/purple.png";
+    img.src = "purple.png";
     console.log('watch color purple');
 });
 c3.addEventListener('click', function(){
-    img.src = "./images/blue.png";
+    img.src = "blue.png";
     console.log('watch color blue');
 });
 c4.addEventListener('click', function(){
-    img.src = "./images/PTgQlim.png";
+    img.src = "PTgQlim.png";
     console.log('watch color red');
 });
 c5.addEventListener('click', function(){
-    img.src = "./images/pink.png";
+    img.src = "pink.png";
     console.log('watch color pink');
 });
 console.log('watch color');
